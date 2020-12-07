@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B8429A257E42B900E3938F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B84299257E42B900E3938F /* AppDelegate.swift */; };
+		71B8429C257E42B900E3938F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8429B257E42B900E3938F /* ContentView.swift */; };
+		71B8429E257E42BA00E3938F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B8429D257E42BA00E3938F /* Assets.xcassets */; };
+		71B842A1257E42BA00E3938F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B842A0257E42BA00E3938F /* Preview Assets.xcassets */; };
+		71B842A4257E42BA00E3938F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B842A2257E42BA00E3938F /* Main.storyboard */; };
+		71B842B0257E42BB00E3938F /* MufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B842AF257E42BB00E3938F /* MufflerTests.swift */; };
+		71B842BB257E42BB00E3938F /* MufflerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B842BA257E42BB00E3938F /* MufflerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B842AC257E42BB00E3938F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B8428E257E42B800E3938F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B84295257E42B800E3938F;
+			remoteInfo = Muffler;
+		};
+		71B842B7257E42BB00E3938F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B8428E257E42B800E3938F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B84295257E42B800E3938F;
+			remoteInfo = Muffler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71B84296257E42B900E3938F /* Muffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B84299257E42B900E3938F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71B8429B257E42B900E3938F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71B8429D257E42BA00E3938F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B842A0257E42BA00E3938F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71B842A3257E42BA00E3938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B842A5257E42BA00E3938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B842A6257E42BA00E3938F /* Muffler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muffler.entitlements; sourceTree = "<group>"; };
+		71B842AB257E42BB00E3938F /* MufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B842AF257E42BB00E3938F /* MufflerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MufflerTests.swift; sourceTree = "<group>"; };
+		71B842B1257E42BB00E3938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B842B6257E42BB00E3938F /* MufflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MufflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B842BA257E42BB00E3938F /* MufflerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MufflerUITests.swift; sourceTree = "<group>"; };
+		71B842BC257E42BB00E3938F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B84293257E42B800E3938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842A8257E42BB00E3938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842B3257E42BB00E3938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B8428D257E42B800E3938F = {
+			isa = PBXGroup;
+			children = (
+				71B84298257E42B900E3938F /* Muffler */,
+				71B842AE257E42BB00E3938F /* MufflerTests */,
+				71B842B9257E42BB00E3938F /* MufflerUITests */,
+				71B84297257E42B900E3938F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B84297257E42B900E3938F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B84296257E42B900E3938F /* Muffler.app */,
+				71B842AB257E42BB00E3938F /* MufflerTests.xctest */,
+				71B842B6257E42BB00E3938F /* MufflerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B84298257E42B900E3938F /* Muffler */ = {
+			isa = PBXGroup;
+			children = (
+				71B84299257E42B900E3938F /* AppDelegate.swift */,
+				71B8429B257E42B900E3938F /* ContentView.swift */,
+				71B8429D257E42BA00E3938F /* Assets.xcassets */,
+				71B842A2257E42BA00E3938F /* Main.storyboard */,
+				71B842A5257E42BA00E3938F /* Info.plist */,
+				71B842A6257E42BA00E3938F /* Muffler.entitlements */,
+				71B8429F257E42BA00E3938F /* Preview Content */,
+			);
+			path = Muffler;
+			sourceTree = "<group>";
+		};
+		71B8429F257E42BA00E3938F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71B842A0257E42BA00E3938F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71B842AE257E42BB00E3938F /* MufflerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B842AF257E42BB00E3938F /* MufflerTests.swift */,
+				71B842B1257E42BB00E3938F /* Info.plist */,
+			);
+			path = MufflerTests;
+			sourceTree = "<group>";
+		};
+		71B842B9257E42BB00E3938F /* MufflerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71B842BA257E42BB00E3938F /* MufflerUITests.swift */,
+				71B842BC257E42BB00E3938F /* Info.plist */,
+			);
+			path = MufflerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B84295257E42B800E3938F /* Muffler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B842BF257E42BB00E3938F /* Build configuration list for PBXNativeTarget "Muffler" */;
+			buildPhases = (
+				71B84292257E42B800E3938F /* Sources */,
+				71B84293257E42B800E3938F /* Frameworks */,
+				71B84294257E42B800E3938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muffler;
+			productName = Muffler;
+			productReference = 71B84296257E42B900E3938F /* Muffler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B842AA257E42BB00E3938F /* MufflerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B842C2257E42BB00E3938F /* Build configuration list for PBXNativeTarget "MufflerTests" */;
+			buildPhases = (
+				71B842A7257E42BB00E3938F /* Sources */,
+				71B842A8257E42BB00E3938F /* Frameworks */,
+				71B842A9257E42BB00E3938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B842AD257E42BB00E3938F /* PBXTargetDependency */,
+			);
+			name = MufflerTests;
+			productName = MufflerTests;
+			productReference = 71B842AB257E42BB00E3938F /* MufflerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71B842B5257E42BB00E3938F /* MufflerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B842C5257E42BB00E3938F /* Build configuration list for PBXNativeTarget "MufflerUITests" */;
+			buildPhases = (
+				71B842B2257E42BB00E3938F /* Sources */,
+				71B842B3257E42BB00E3938F /* Frameworks */,
+				71B842B4257E42BB00E3938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B842B8257E42BB00E3938F /* PBXTargetDependency */,
+			);
+			name = MufflerUITests;
+			productName = MufflerUITests;
+			productReference = 71B842B6257E42BB00E3938F /* MufflerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B8428E257E42B800E3938F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					71B84295257E42B800E3938F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					71B842AA257E42BB00E3938F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 71B84295257E42B800E3938F;
+					};
+					71B842B5257E42BB00E3938F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 71B84295257E42B800E3938F;
+					};
+				};
+			};
+			buildConfigurationList = 71B84291257E42B800E3938F /* Build configuration list for PBXProject "Muffler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B8428D257E42B800E3938F;
+			productRefGroup = 71B84297257E42B900E3938F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B84295257E42B800E3938F /* Muffler */,
+				71B842AA257E42BB00E3938F /* MufflerTests */,
+				71B842B5257E42BB00E3938F /* MufflerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B84294257E42B800E3938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B842A4257E42BA00E3938F /* Main.storyboard in Resources */,
+				71B842A1257E42BA00E3938F /* Preview Assets.xcassets in Resources */,
+				71B8429E257E42BA00E3938F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842A9257E42BB00E3938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842B4257E42BB00E3938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B84292257E42B800E3938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8429C257E42B900E3938F /* ContentView.swift in Sources */,
+				71B8429A257E42B900E3938F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842A7257E42BB00E3938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B842B0257E42BB00E3938F /* MufflerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B842B2257E42BB00E3938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B842BB257E42BB00E3938F /* MufflerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B842AD257E42BB00E3938F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B84295257E42B800E3938F /* Muffler */;
+			targetProxy = 71B842AC257E42BB00E3938F /* PBXContainerItemProxy */;
+		};
+		71B842B8257E42BB00E3938F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B84295257E42B800E3938F /* Muffler */;
+			targetProxy = 71B842B7257E42BB00E3938F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71B842A2257E42BA00E3938F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B842A3257E42BA00E3938F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B842BD257E42BB00E3938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71B842BE257E42BB00E3938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71B842C0257E42BB00E3938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muffler/Muffler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Muffler/Preview Content\"";
+				DEVELOPMENT_TEAM = YC249PY26F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Muffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.Muffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71B842C1257E42BB00E3938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muffler/Muffler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Muffler/Preview Content\"";
+				DEVELOPMENT_TEAM = YC249PY26F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Muffler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.Muffler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		71B842C3257E42BB00E3938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YC249PY26F;
+				INFOPLIST_FILE = MufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.MufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muffler.app/Contents/MacOS/Muffler";
+			};
+			name = Debug;
+		};
+		71B842C4257E42BB00E3938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YC249PY26F;
+				INFOPLIST_FILE = MufflerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.MufflerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muffler.app/Contents/MacOS/Muffler";
+			};
+			name = Release;
+		};
+		71B842C6257E42BB00E3938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YC249PY26F;
+				INFOPLIST_FILE = MufflerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.MufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Muffler;
+			};
+			name = Debug;
+		};
+		71B842C7257E42BB00E3938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YC249PY26F;
+				INFOPLIST_FILE = MufflerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.MufflerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Muffler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B84291257E42B800E3938F /* Build configuration list for PBXProject "Muffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B842BD257E42BB00E3938F /* Debug */,
+				71B842BE257E42BB00E3938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B842BF257E42BB00E3938F /* Build configuration list for PBXNativeTarget "Muffler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B842C0257E42BB00E3938F /* Debug */,
+				71B842C1257E42BB00E3938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B842C2257E42BB00E3938F /* Build configuration list for PBXNativeTarget "MufflerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B842C3257E42BB00E3938F /* Debug */,
+				71B842C4257E42BB00E3938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B842C5257E42BB00E3938F /* Build configuration list for PBXNativeTarget "MufflerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B842C6257E42BB00E3938F /* Debug */,
+				71B842C7257E42BB00E3938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B8428E257E42B800E3938F /* Project object */;
+}
