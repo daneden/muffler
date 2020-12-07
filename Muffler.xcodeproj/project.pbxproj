@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71B8429A257E42B900E3938F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B84299257E42B900E3938F /* AppDelegate.swift */; };
-		71B8429C257E42B900E3938F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8429B257E42B900E3938F /* ContentView.swift */; };
 		71B8429E257E42BA00E3938F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B8429D257E42BA00E3938F /* Assets.xcassets */; };
 		71B842A1257E42BA00E3938F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B842A0257E42BA00E3938F /* Preview Assets.xcassets */; };
 		71B842A4257E42BA00E3938F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B842A2257E42BA00E3938F /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		71B84296257E42B900E3938F /* Muffler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muffler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B84299257E42B900E3938F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71B8429B257E42B900E3938F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71B8429D257E42BA00E3938F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B842A0257E42BA00E3938F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71B842A3257E42BA00E3938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				71B84299257E42B900E3938F /* AppDelegate.swift */,
-				71B8429B257E42B900E3938F /* ContentView.swift */,
 				71B8429D257E42BA00E3938F /* Assets.xcassets */,
 				71B842A2257E42BA00E3938F /* Main.storyboard */,
 				71B842A5257E42BA00E3938F /* Info.plist */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B8429C257E42B900E3938F /* ContentView.swift in Sources */,
 				71B8429A257E42B900E3938F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.Muffler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -469,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.daneden.Muffler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
